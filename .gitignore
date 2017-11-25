@@ -4,6 +4,11 @@
 .gradle
 build/
 
+# Gradle:
+.idea/**/gradle.xml
+.idea/**/libraries
+sandbox/.idea/libraries
+
 # Ignore Gradle GUI config
 gradle-app.setting
 
@@ -11,3 +16,6 @@ gradle-app.setting
 !gradle-wrapper.jar
 sandbox/build.gradle
 *.class
+sandbox/.idea/workspace.xml
+sandbox/.idea/misc.xml
+*.log
